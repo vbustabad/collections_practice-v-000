@@ -4,7 +4,7 @@ def sort_array_asc(array)
   end
 end
 
-def sort_array_asc(array)
+def sort_array_desc(array)
   array.sort.reverse do |a, b|
     a <=> b
   end
