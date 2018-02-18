@@ -25,7 +25,7 @@ def reverse_array(array)
 end
 
 def find_a(array)
-  array.select do |name|
-    name.start_with?("A")
+  array.select do |word|
+    word.start_with?("a")
   end
 end
