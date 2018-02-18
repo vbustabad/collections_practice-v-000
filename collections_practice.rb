@@ -36,6 +36,6 @@ end
 
 def add_s(array)
   array.collect do |word|
-    word << "s"
+    word << "s" && word[2].delete("s")
   end
 end
