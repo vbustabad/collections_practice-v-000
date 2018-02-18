@@ -24,9 +24,6 @@ def reverse_array(array)
   array.reverse
 end
 
-def kesha_maker(array)
-  array. do |a, b|
-
 def find_a(array)
   array.select do |name|
     name.start_with?("A")
