@@ -26,7 +26,7 @@ end
 
 def kesha_maker(array)
   array.each do |name|
-    name.sub(name[2], "$")
+    name[2] = "$"
   end
 end
 
